@@ -6,6 +6,7 @@ vim.cmd("set shiftwidth=2")
 vim.cmd("set number")
 
 vim.wo.relativenumber = false
+vim.wo.signcolumn = "yes"
 
 local opts = { noremap = true, silent = true }
 
@@ -41,12 +42,10 @@ vim.keymap.set("n", "<A-v>", "<C-w>v<C-w>l:terminal<CR>i", opts)
 vim.keymap.set("n", "<Home>", ":wa<CR>:qa<CR>", opts)
 vim.keymap.set("n", "<End>", ":qa!<CR>")
 
-
-
 -- terminal
 vim.keymap.set("t", "<Esc>", "<C-\\><C-n>", opts)
 
 -- enable python provider
 
-vim.g.python3_host_prog = '/usr/bin/python3'
+vim.g.python3_host_prog = "/usr/bin/python3"
 --vim.g.loaded_python3_provider = nil
