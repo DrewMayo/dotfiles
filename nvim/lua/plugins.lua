@@ -1,0 +1,18 @@
+require("lazy").setup({
+  "nvim-treesitter/nvim-treesitter",
+  "nvim-lua/plenary.nvim",
+  "rafamadriz/friendly-snippets",
+  { "saghen/blink.cmp", version = "*" },
+  "sainnhe/gruvbox-material",
+  "williamboman/mason.nvim",
+  "williamboman/mason-lspconfig.nvim",
+  "neovim/nvim-lspconfig",
+  "nvimtools/none-ls.nvim",
+  "windwp/nvim-autopairs",
+  "nvim-telescope/telescope.nvim",
+  "nvim-telescope/telescope-ui-select.nvim",
+  "nvim-lualine/lualine.nvim",
+  "nvim-tree/nvim-web-devicons",
+  "stevearc/oil.nvim",
+  "lervag/vimtex",
+})
