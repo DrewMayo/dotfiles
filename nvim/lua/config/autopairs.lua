@@ -1,4 +1,4 @@
 require("nvim-autopairs").setup({
-	event = "InsertEnter",
-	disable_filetype = { "TelescopePrompt", "vim" },
+    event = "InsertEnter",
+    disable_filetype = { "TelescopePrompt", "vim" },
 })
